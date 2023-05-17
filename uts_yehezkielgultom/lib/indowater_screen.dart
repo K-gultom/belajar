@@ -176,7 +176,7 @@ class _ProductDetailsScreenState extends State<Indowater> {
             ElevatedButton(
               onPressed: () {
                 // Aksi yang dijalankan ketika tombol bayar ditekan
-                Navigator.pushNamed(context, '/Bayar');
+                Navigator.pushNamed(context, '/Bayar', arguments: 'Indowater');
               },
               child: Text('Bayar'),
               style: ElevatedButton.styleFrom(

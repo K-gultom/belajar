@@ -176,7 +176,7 @@ class _ProductDetailsScreenState extends State<Java> {
             ElevatedButton(
               onPressed: () {
                 // Aksi yang dijalankan ketika tombol bayar ditekan
-                Navigator.pushNamed(context, '/Bayar');
+                Navigator.pushNamed(context, '/Bayar', arguments: 'Java Water');
               },
               child: Text('Bayar'),
               style: ElevatedButton.styleFrom(
