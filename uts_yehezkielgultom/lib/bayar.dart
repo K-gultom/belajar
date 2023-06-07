@@ -2,8 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:uts_yehezkielgultom/const_belanja.dart';
 
 class Bayar extends StatelessWidget {
- final String data;
-
+  final String data;
   const Bayar({super.key, required this.data});
 
   @override
@@ -22,24 +21,21 @@ class Bayar extends StatelessWidget {
               children: [
                 Text(
                   'Produk yang Dipesan:',
-                  
                 ),
-                Text('Oasis Water',
-                style: TextStyle(
+                Text(
+                  'Oasis Water',
+                  style: TextStyle(
                     fontSize: 18.0,
-                fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.bold,
                   ),
                 )
-
               ],
             ),
-            
             SizedBox(height: 16.0),
-            
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
-                    Text(
+                Text(
                   'Total Pembayaran:',
                   style: TextStyle(
                     fontSize: .0,
